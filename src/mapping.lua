@@ -41,6 +41,7 @@ function mapping:clean(input)
         return in_range and character or ''
     end)
 end
+
 function mapping:transliterate(input)
     -- Read and convert
     local substring
